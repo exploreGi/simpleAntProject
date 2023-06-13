@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="HelloWorld" default="run">
-    <target name="compile" depends="mkdir">
+    <target name="compile">
         <mkdir dir="build/classes"/>
         <javac destdir="build/classes" includeantruntime="false">
             <src path="src"/>
@@ -12,4 +12,4 @@
     <target name="clean">
         <delete dir="build"/>
     </target>
-</project>
+  </project>
